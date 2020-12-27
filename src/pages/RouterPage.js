@@ -6,13 +6,19 @@ import {
   UploadOutlined
 } from "@ant-design/icons";
 
-import { BrowserRouter as Router, Switch, Route, Link, Redirect } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect
+} from "react-router-dom";
 import { Ingresar } from "./Ingresar";
 import { Cola } from "./Cola";
 import { CrearTicket } from "./CrearTicket";
 import { Escritorio } from "./Escritorio";
 
-const { Header, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 export const RouterPage = () => {
   return (
     <Router>
